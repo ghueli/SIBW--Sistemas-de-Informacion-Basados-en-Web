@@ -1,0 +1,390 @@
+
+/*
+Autores: 
+    Guillermo Hueli Campos 
+    Alejandro García Vallecillo 
+*/
+
+body{
+    /*
+    background-image:url("../imagenes/me1.jpg");
+    background-position: center top;
+    */  
+
+    background: rgba(255,142,3,1);
+    background: -moz-linear-gradient(left, rgba(255,142,3,1) 0%, rgba(194,116,27,1) 50%, rgba(252,141,5,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,142,3,1)), color-stop(50%, rgba(194,116,27,1)), color-stop(100%, rgba(252,141,5,1)));
+    background: -webkit-linear-gradient(left, rgba(255,142,3,1) 0%, rgba(194,116,27,1) 50%, rgba(252,141,5,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,142,3,1) 0%, rgba(194,116,27,1) 50%, rgba(252,141,5,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,142,3,1) 0%, rgba(194,116,27,1) 50%, rgba(252,141,5,1) 100%);
+    background: linear-gradient(to right, rgba(255,142,3,1) 0%, rgba(194,116,27,1) 50%, rgba(252,141,5,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8e03', endColorstr='#fc8d05', GradientType=1 );    
+}
+
+.header{
+    margin-top: 20px;
+    text-align: center;
+    margin: 0 auto;
+    width: 1160px;
+}
+
+.header .nav{
+    background-color: black;
+    -moz-box-shadow: 3px 3px 4px #111;
+    -webkit-box-shadow: 3px 3px 4px #111;
+    box-shadow: 3px 3px 4px #111;
+}
+
+.nav li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    font-size: 150%;
+    font-family:fantasy; 
+}
+
+.nav a{
+    text-decoration: none;
+    color: #F6F6F6;
+}
+
+.nav a{
+    text-decoration: none;
+	color: #F6F6F6;
+}
+	
+.nav a:link{
+    text-decoration: none;
+  	color:#F6F6F6;	
+}
+
+.nav a:visited{
+    text-decoration: none;
+  	color:#F6F6F6;	
+}
+
+.nav a:hover{  
+    color: #CAC4B0;   
+}
+
+.general{   
+    background-color: aliceblue;
+    border: 1px solid black;
+    -moz-box-shadow: 3px 3px 4px #111;
+    -webkit-box-shadow: 3px 3px 4px #111;
+    box-shadow: 3px 3px 4px #111;
+    overflow: visible;
+    margin-top: -16px;   
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.general li{
+   list-style-type: none;
+}
+
+#content{
+    float: left;
+}
+
+#sidebar{
+    float: left;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    width: 210px;
+    margin-top: 5px;
+    border: 2px solid black;
+}
+
+#publi{
+    margin-left: -25px;
+    margin-right: 8px;
+}
+
+#publi hr{
+    margin-left: 25px;
+    margin-right: -8px;
+}
+
+.principal{
+    margin-left: 10px;
+    margin-top: 5px;
+    border: 2px solid black;
+    width: 910px;
+    height: 450px;
+    float: left;
+    
+}
+.principal img{
+    width: 910px;
+    height: 450px;    
+}
+
+.tresColumnas {
+    margin-left: 5px;
+}
+
+.fin{
+    clear:both;   
+}
+
+.footer{
+    background-color: black;
+    -moz-box-shadow: 3px 3px 4px #111;
+    -webkit-box-shadow: 3px 3px 4px #111;
+    box-shadow: 3px 3px 4px #111;
+    color: white;
+    width: 1160px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#columna1{
+    float: left;
+    width:340px;
+}
+
+#columna2{
+    float: left;
+    width:340px;
+}
+
+#columna3{
+    float: left;
+    width:200px;
+}
+
+#columna1 img{
+	width:300px; 
+	height:200px;
+}
+
+#columna2 img{
+	width:280px; 
+	height:160px;
+}
+
+#columna3 img{
+	width:200px; 
+	height:100px;
+}
+
+.iconosSociales #faceIcon{
+    margin-left: 70px;
+    width:100px; 
+	height:100px;
+}
+
+.iconosSociales #twitterIcon{
+    margin-left: 80px;
+    width:80px; 
+	height:80px;    
+}
+
+/* Noticia individual */
+
+.imgNoti, .img{
+    width:700px;
+    height: 394px;
+}
+
+.img1{
+    width:700px;
+    height: 394px;
+    margin-left: 0px;
+    margin-top: -10px;
+}
+
+.img1 figcation{
+    margin-top: -5px;
+    display: block;
+    background-color: #646464;
+    color: white;
+    font-size: 14px;
+    text-align: right;
+}
+
+.RRSS .twitter{
+    margin-left: 10px;
+    width:80px; 
+	height:80px;  
+}
+
+.RRSS img{  
+    width:100px; 
+	height:100px;   
+}
+
+.imgRRSS, p, .imgCuerpo{
+    margin-left: 10px;
+    margin-right: 20px; 
+}
+
+.imgRRSS div{ 
+    position: absolute;    
+}
+
+.RRSS{
+    margin-top: -20px;
+    margin-left: 720px;    
+}
+
+/* Cuadro de comentarios de JavaScript */
+
+.btnComment{
+    margin-left: 10px;
+    width:80px; 
+	height:80px;
+}
+
+#comentarios{
+    background-color: aliceblue;
+    width: auto;
+    margin-left: -200px;
+    border: 1px solid black;
+    -moz-box-shadow: 3px 3px 4px #111;
+    -webkit-box-shadow: 3px 3px 4px #111;
+    box-shadow: 3px 3px 4px #111;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    z-index: 1000;
+    visibility: hidden;
+}
+
+#comentarios hr, #comentarios li{
+    margin-left: -40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#listaComentarios ul{
+    margin-left: -30px;
+    margin-right: 10px;
+}
+
+#listaComentarios p{
+    border: 1px solid black;
+    
+}
+
+.comment2{
+    margin-left: -30px;
+    margin-right: 10px;
+}
+
+.comment2 #text{
+    border: 0px solid black;
+}
+
+.comment2 li{
+    margin-left: -70px;
+}
+
+.comment3{
+    margin-left: -30px;
+}
+
+#comentarios .tituloComment{
+    text-align: center;
+    font-weight: bold;
+    font-size: 130%;
+}
+
+.comment1 li{
+    margin-left: -70px;
+}
+
+#textComment {
+    resize: none;
+}
+
+/* ------------------------------------------------------- */
+
+.seccion{
+    font-size: 150%;
+    font-family:fantasy;
+    text-align: center;
+    width: 100px;
+}
+
+.titulo{ 
+    font-size: 35px;
+    font-weight: bold;   
+}
+
+.subtitulo{    
+    font-size: 25px;
+    font-style: italic;    
+}
+
+.entradilla{
+    font-size: 25px;
+    margin-right: 300px;
+    font-weight: bold;  
+    text-align: justify;
+}
+
+.autor{  
+    float:left;
+    font-style: italic;
+    font-size: 110%;
+
+}
+
+.fecha{
+    float:left;
+    font-style: italic;
+    font-size: 110%;
+}
+
+.cuerpo{ 
+    font-size: 20px;
+    margin-right: 300px;
+    text-align: justify;
+    clear: both;
+}
+
+.imgCuerpo{   
+    width:640px;
+    height: 394px;
+    margin-left:5px;
+    margin-top: -4px;
+}
+
+.imgCuerpo figcation{
+    margin-left: 5px;
+    margin-right: -5px;
+    margin-top: -5px;
+    display: block;
+    background-color: #646464;
+    color: white;
+    font-size: 14px;
+    text-align: right;
+}
+
+.tituloRelac{  
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;   
+}
+
+/*.notisRelac{
+    
+    position: absolute;
+    margin-left: 660px;
+    margin-top: 570px;
+    width: 270px;
+    border: 1px solid black;
+    -moz-box-shadow: 3px 3px 4px #111;
+    -webkit-box-shadow: 3px 3px 4px #111;
+    box-shadow: 3px 3px 4px #111;  
+}*/
+
+#sidebar img{ 
+    width:180px; 
+	height:80px; 
+    border: 1px solid black;
+}

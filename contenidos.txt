@@ -1,0 +1,5 @@
+Página web de una revista de noticias de videojuegos. 
+
+Todos los contenidos están en una base de datos y la página los carga desde alli.
+
+Html, css, JavaScript, php, ajax
